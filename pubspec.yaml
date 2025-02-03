@@ -1,0 +1,43 @@
+name: connection_monitoring_with_bloc_clean_architecture
+description: A new Flutter project.
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.0.5 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # helps to discover which type of network connectivity are available
+  connectivity_plus: ^5.0.2
+
+  # help equality classes
+  equatable:
+
+  internet_connection_checker_plus:
+
+  # helps with immutability and serialization
+  freezed_annotation:
+
+  # helps with serialization
+  json_annotation: ^4.9.0
+
+  # helps with dependency injection
+  get_it:
+
+  # helps with bloc pattern
+  flutter_bloc:
+  bloc:
+
+  # helps with automatic code generation
+  build_runner:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
